@@ -18,24 +18,20 @@ function yes(){
 function no(){
  document.GetElementById("story")="You wake up in a park. You immediately take note of the healthy trees and green grass. The trees provide cool shade. No one is wearing a respirator. You pick up the machine that is next to you in the grass. It must have sent you back in time. Time machines have a cooldown of 12 hours. <br> You see a woman walking by, do you talk to her?</p>
 } 
+ <p>Type 'yes' or 'no'.</p>
+ function yes(){
+ document.GetElementById("story")="Excuse me miss, what is the date today?”</p>
+}  
+    <p>'Uh' 'she checks her phone', "today is (feature creep)” </p>
+    <p>"You thank her and walk out of the park and pass a newspaper stand"</p>
  
-  <p>Type 'yes' or 'no'.</p>
-    if w == "yes":
-    <p>"Excuse me miss, what is the date today?” </p>
-    <p>“Uh” she checks her phone, “today is (feature creep)” </p>
-    “Thank you!”
-    <p>"You walk out of the park and pass a newspaper stand"</p>
-  elif w == "no":
-    <p>You get up and walk out of the park. People stare at your plastic clothes. <br> 
-  You pass a newspaper stand and realize that today is (feature creep).</p>
-  <p>The headline on the newspaper says: “LAST CHANCE TO SAVE OUR PLANET FROM CLIMATE CHANGE!” <br>
-  As you continue your stroll, you realize that this opportunity is the perfect time to make a difference and reverse the damage of the future. 
-  You begin your course to the Environmental Protection Agency, determined to show government officials the drastic changes which will occur in the near future if people don’t change their ways. </p>
+ function no(){
+ document.GetElementById("story")="You get up and walk out of the park. People stare at your plastic clothes. <br> You pass a newspaper stand and realize that today is (feature creep).</p>
+}  
+  <p>'The headline on the newspaper says: “LAST CHANCE TO SAVE OUR PLANET FROM CLIMATE CHANGE!” <br> As you continue your stroll, you realize that this opportunity is the perfect time to make a difference and reverse the damage of the future. You begin your course to the Environmental Protection Agency, determined to show government officials the drastic changes which will occur in the near future if people don’t change their ways. </p>
 
- <p>You arrive at the agency and show them pictures from the future and at the sight of such horrific conditions they wonder what they can do so you can grow up in a healthy world. <br>
-
- “Well, what do you think we can do to save the planet?” </p> <br>
- <p>Here is a checklist, choose all options that can help the environment!</p> <br>
+ <p>"You arrive at the agency and show them pictures from the future and at the sight of such horrific conditions they wonder what they can do so you can grow up in a healthy world." <br> 'Well, what do you think we can do to save the planet?” </p> <br>
+ <p>"Here is a checklist, choose all options that can help the environment!" </p> <br>
  <!-- (checklist) -->
  <form action="/action_page.php" method="get">
   <input type="checkbox" name="save" value="Install solar panels"> Install solar panels<br>
