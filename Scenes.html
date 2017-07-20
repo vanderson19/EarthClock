@@ -11,23 +11,13 @@ function next2(){
  document.GetElementById("story")="As you clean your dusty closet you discover a stranger machine. <br> Do you press the button?</p>
 }  
   
-  <p></p> 
-
-<p id="machine"></p>
-<script>
-{
-    if (yes) {
-        black = "The machine whirs and then you black out for a while.";} 
-    else {
-        black = "A few minutes later, as you grab your camera, you accidentally knock over the strange machine. It starts whirring and then you black out.";
-    }
-    document.getElementById("machine").innerHTML = black;
+function yes(){
+ document.GetElementById("story")="The machine whirs and then you black out for a while."</p>
+}  
  
-    <p>You wake up in a park. You immediately take note of the healthy trees and green grass. The trees provide cool shade. 
-  No one is wearing a respirator. You pick up the machine that is next to you in the grass. 
-  It must have sent you back in time. Time machines have a cooldown of 12 hours. <br>
-
-     You see a woman walking by, do you talk to her?</p> }
+function no(){
+ document.GetElementById("story")="You wake up in a park. You immediately take note of the healthy trees and green grass. The trees provide cool shade. No one is wearing a respirator. You pick up the machine that is next to you in the grass. It must have sent you back in time. Time machines have a cooldown of 12 hours. <br> You see a woman walking by, do you talk to her?</p>
+} 
  
   <p>Type 'yes' or 'no'.</p>
     if w == "yes":
