@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
- <p>What's your name?</p>
-<input id="Name"/>
-<button id="btnSubmit" onclick="submit()">Start</button>
-<p id="input"></p>
-<script>function submit(){
-document.getElementById("input").innerHTML="Welcome " + document.getElementById("Name").value
+
  }</script>
     <p>In the future…
 As of yet there are been no successful attempts to change our course towards Global Warming,
@@ -17,13 +12,18 @@ it’s up to you to save  the world!</p>
 You turn on the news and hear the daily warnings about the storms and floods, hoping that you won’t be hit this time. 
 You eat your synthetic breakfast, actual fruits, vegetables, and meat are only for the rich who can pay the inflated prices</p>
     <p>As you clean your dusty closet you discover a stranger machine. <br> Do you press the button?</p> 
-  
-    w = input("Type 'yes' or 'no'.")
-    if w == "yes":
-        <p>The machine whirs and then you black out for a while.<p>
-    elif w == "no":
-        <p>A few minutes later, as you grab your camera, you accidentally knock over the strange machine. 
-         It starts whirring and then you black out.</p> <br>
+
+<p id="machine"></p>
+
+<script>
+{
+    if (yes) {
+        black = "The machine whirs and then you black out for a while.";
+    } else {
+        black = "A few minutes later, as you grab your camera, you accidentally knock over the strange machine. It starts whirring and then you black out.";
+    }
+    document.getElementById("machine").innerHTML = black;
+ 
     <p>You wake up in a park. You immediately take note of the healthy trees and green grass. The trees provide cool shade. 
   No one is wearing a respirator. You pick up the machine that is next to you in the grass. 
   It must have sent you back in time. Time machines have a cooldown of 12 hours. <br>
