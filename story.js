@@ -1,4 +1,4 @@
-document.getElementById("btnNext").style.visibility="hidden"
+// document.getElementById("btnNext").style.visibility="hidden"
 
 function submit(){
   document.getElementById("btnSubmit").style.visibility = "hidden";
