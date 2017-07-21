@@ -15,8 +15,7 @@ function next(){
 function next2(){
   document.getElementById("btnNext2").style.visibility = "hidden";
   document.getElementById("btnpress").style.visibility="visible";
-  document.getElementById("btnnotalk").style.visibility="visible";
-  document.getElementById("btntalk").style.visibility="visible";
+  document.getElementById("btnnopress").style.visibility="visible";
   document.getElementById("story").innerHTML="As you clean your dusty closet you discover a strange machine. Do you press the button?"
 }  
 
@@ -31,7 +30,8 @@ function press(){
  function nopress(){
    document.getElementById("btnnopress").style.visibility = "hidden";
    document.getElementById("btnpress").style.visibility="hidden";
-   document.getElementById("btnNext").style.visibility="visible";
+   document.getElementById("btntalk").style.visibility="visible";
+   document.getElementById("btnnotalk").style.visibility="visible";
    document.getElementById("story").innerHTML="A few minutes later, as you grab your camera, you accidentally knock over the strange machine. It starts whirring and then you black out.You wake up in a park. You immediately take note of the healthy trees and green grass. The trees provide cool shade. No one is wearing a respirator. You pick up the machine that is next to you in the grass. It must have sent you back in time. Time machines have a cooldown of 12 hours. You see a woman walking by, do you talk to her?"
 } 
 
