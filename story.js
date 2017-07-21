@@ -19,13 +19,12 @@ function next2(){
   document.getElementById("story").innerHTML="As you clean your dusty closet you discover a strange machine. Do you press the button?"
 }  
 
-}  
 function press(){
   document.getElementById("btnpress").style.visibility = "hidden";
   document.getElementById("btnnopress").style.visibility="hidden";
   document.getElementById("btntalk").style.visibility="visible";
   document.getElementById("btnnotalk").style.visibility="visible";
-  document.getElementById("story").innerHTML="The machine whirs and then you black out for a while."</p>
+  document.getElementById("story").innerHTML="The machine whirs and then you black out for a while."
 }  
  function nopress(){
    document.getElementById("btnnopress").style.visibility = "hidden";
