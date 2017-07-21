@@ -10,14 +10,15 @@ function next(){
   document.getElementById("btnNext").style.visibility = "hidden";
   document.getElementById("btnNext2").style.visibility="visible";
   document.getElementById("story")="You begin your day using your own recycled water to take 5 minute shower, then you dress in all-plastic clothing since natural fibers are a rarity now. You turn on the news and hear the daily warnings about the storms and floods, hoping that you won’t be hit this time. You eat your synthetic breakfast, actual fruits, vegetables, and meat are only for the rich who can pay the inflated prices."
+}
+
+function next2(){
+  document.getElementById("btnNext2").style.visibility = "hidden";
+  document.getElementById("btnpress").style.visibility="visible";
+  document.getElementById("btnnotalk").style.visibility="visible";
+  document.getElementById("btntalk").style.visibility="visible";
+  document.getElementById("story")="As you clean your dusty closet you discover a strange machine. Do you press the button?"
 }  
-// function next2(){
-//   document.getElementById("btnNext2").style.visibility = "hidden";
-//   document.getElementById("btnpress").style.visibility="visible";
-//   document.getElementById("btnnotalk").style.visibility="visible";
-//   document.getElementById("btntalk").style.visibility="visible";
-//   document.getElementById("story")="As you clean your dusty closet you discover a stranger machine. Do you press the button?"
-// }  
 
 // }  
 // function press(){
