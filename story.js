@@ -38,7 +38,7 @@ function press(){
      document.getElementById("btntalk").style.visibility = "hidden";
      document.getElementById("btnnotalk").style.visibility = "hidden";
 //   document.getElementById("btnNext").style.visibility="visible";
-     document.getElementById("story").innerHTML="Excuse me miss, what is the date today? 'Uh' 'checks her phone', 'today is (feature creep).' You thank her and walk out of the park and pass a newspaper stand"
+     document.getElementById("story").innerHTML="''Excuse me miss, what is the date today?'' You say. ''Uh'' checks her phone, ''today is (feature creep).'' You thank her and walk out of the park and pass a newspaper stand"
  }
    
  function notalk(){
