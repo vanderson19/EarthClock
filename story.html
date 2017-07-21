@@ -73,6 +73,19 @@ body, html {
 #search h2, #search h5, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
 #search h2 { margin-bottom: 50px }
 #search h5 { margin-top: 70px }
+    
+.btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 </style>
 
 <body>
@@ -81,7 +94,7 @@ body, html {
       <div id="search-bg"></div>
       <div id="search">
 <input type="text" style= "color: black;margin-top: 30px ;margin-botton:  0px; margin-right: 10px;margin-left: 100px; height:20px; font-size:14pt;"name="fname" placeholder="Name" id="Name"><br>
-<button id="btnSubmit" onclick="submit()" style= "margin-top: 12px ;margin-botton:  32px; margin-right: 15px;margin-left: 100px;">Start</button>
+<button id="btnSubmit" onclick="submit()" style= "margin-top: 12px ;margin-botton:  32px; margin-right: 15px;margin-left: 100px;" class= "btn">Start</button>
 <p style="margin-top: 0px" id="story"></p>
 <button id="btnNext" onclick="next()" style="visibility:hidden;">Next</button>
 <button id="btnNext2" style="visibility:hidden;" onclick="next2()">Next</button>
