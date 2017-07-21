@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <script src="story.js"></script>
- </head>
-<body>
- <style type="text/css">
+<style type="text/css">
 body, html {
     height: 100%;
     margin: 0;
 }
 
 #bg, #search-bg {
-  background-image: url("https://chrismartinphotography.files.wordpress.com/2013/01/2012-landscapes-c2a9-christopher-martin-4648.jpg?w=950&h=633");
-  height: 75%;
+  background-image: url("http://yosemitelandscapes.com/images/032.jpg");
+  height: 89.5%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-
-#bg, #example {
+#bg {
   background-position: center bottom;
-  padding: 100px 70px 90px 70px;
+  padding: 50px 30px 50px 90px;
 }
 
 
@@ -64,26 +59,26 @@ body, html {
 #search h2, #search h5, #search h5 a { text-align: center; color: #fefefe; font-weight: normal; }
 #search h2 { margin-bottom: 50px }
 #search h5 { margin-top: 70px }
-
 </style>
- 
+
+
 <div id="bg">
   <div id="search-container">
-    <div id="search-bg"></div>
-    <div id="search">
-     <input type="text" style= "color: black;margin-top: 100px ;margin-botton:  10px; margin-right: 10px;margin-left: 10px;"name="fname" placeholder="Name" id="Name"><br>
-     <button id="btnSubmit" onclick="submit()">Submit</button>
-     <p id="story"></p>
-     <button id="btnNext" style="visibility:hidden;" onclick="next()">Next</button>
-     <button id="btnNext2" style="visibility:hidden;" onclick="next2()">Next</button>
-     <button id="btnpress" style="visibility:hidden;" onclick="press()">press</button>
-     <button id="btnnopress" style="visibility:hidden;" onclick="nopress()">nopress</button>
-     <button id="btntalk" style="visibility:hidden;" onclick="talk()">talk</button>
-     <button id="btnnotalk" style="visibility:hidden;" onclick="notalk()">notalk</button>
+      <div id="search-bg"></div>
+      <div id="search">
+<input type="text" style= "color: black;margin-top: 100px ;margin-botton:  12px; margin-right: 10px;margin-left: 100px;"name="fname" placeholder="Name" id="Name"><br>
+<button id="btnSubmit" onclick="submit()" style= "margin-top: 12px ;margin-botton:  32px; margin-right: 15px;margin-left: 100px;">Submit</button>
+<p id="story"></p>
+<button id="btnNext" onclick="next()">Next</button>
+<button id="btnNext2" style="visibility:hidden;" onclick="next2()">Next</button>
+<button id="btnpress" style="visibility:hidden;" onclick="press()">press</button>
+<button id="btnnopress" style="visibility:hidden;" onclick="nopress()">nopress</button>
+<button id="btntalk" style="visibility:hidden;" onclick="talk()">talk</button>
+<button id="btnnotalk" style="visibility:hidden;" onclick="notalk()">notalk</button>
+</div>
     </div>
   </div>
 </div>
-</div>
- 
- </body>
+
+
 </html>
