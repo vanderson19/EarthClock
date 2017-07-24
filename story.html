@@ -128,27 +128,30 @@ h1 {
 <button id="btnnopress" style="visibility:hidden;" onclick="nopress()" class="btn">Don't Press</button>
 <button id="btntalk" style="visibility:hidden;" onclick="talk()" class="btn">Talk</button>
 <button id="btnnotalk" style="visibility:hidden;" onclick="notalk()" class="btn">Don't Talk</button>
-          <br>
+<br>
 <div style="visibility:hidden;" id="checklist">
-<form action="/action_page.php" method="get">
-  <input type="checkbox" name="save" value="Recycle & Compost">Recycle & Compost<br>
-  <input type="checkbox" name="save" value="Use reusable bags/water bottles/cups"> Use reusable bags/water bottles/cups<br>
-  <input type="checkbox" name="save" value="Minimize CO2 emissions (like cars)"> Minimize CO2 emissions (like cars)<br>
-  <input type="checkbox" name="save" value="Buy locally-sourced and organic produce"> Buy locally-sourced and organic produce<br>
-  <input type="checkbox" name="save" value="Take long showers"> Take long showers<br>
-  <input type="checkbox" name="save" value="Always keep lights on at night"> Always keep lights on at night<br>
-  <input type="checkbox" name="save" value="Always keep chargers plugged in"> Always keep chargers plugged in<br>
-  <input type="checkbox" name="save" value="Keep thermostat on when you are on vacation"> Keep thermostat on when you are on vacation<br>
-  <input type="checkbox" name="save" value="Print double-sided"> Print double-sided<br>
-  <input type="checkbox" name="save" value="Use rechargeable batteries"> Use rechargeable batteries<br>
-  <input style="margin-top:15px" type="submit" value="Submit">
+<form action="/action_page.php" method="post">
+  <input type="checkbox" id="RnC"> Recycle & Compost<br>
+  <input type="checkbox" id="Reuse"> Use reusable bags/water bottles/cups<br>
+  <input type="checkbox" id="CO2"> Minimize CO2 emissions (like cars)<br>
+  <input type="checkbox" id="Organic"> Buy locally-sourced and organic produce<br>
+  <input type="checkbox" id="Showers"> Take long showers<br>
+  <input type="checkbox" id="Lights"> Always keep lights on at night<br>
+  <input type="checkbox" id="Chargers"> Always keep chargers plugged in<br>
+  <input type="checkbox" id="Thermostat"> Keep thermostat on when you are on vacation<br>
+  <input type="checkbox" id="Print"> Print double-sided<br>
+  <input type="checkbox" id="Recharge"> Use rechargeable batteries<br>
+  <input style="margin-top:15px" type="button" value="Submit" onclick="enter();">
+ </form> 
+  </div>
+          <div id="comment" style="visibility:hidden;">
+  <div class="form-group">
+  <textarea align="center" class="form-control" rows="5" cols="70" id="comment"></textarea>
+</div>
 </div>
     </div>
   </div>
-</div>
-    
-                                                                   
+</div>                                                            
 </body>
-
 
 </html>
