@@ -55,7 +55,7 @@ function enter(){
       document.getElementById("comment").style.visibility="visible";
       document.getElementById("story").innerHTML="You pull out the time machine from your pocket, hoping you’ve done enough. The machine whirs as it powers up and  you black out. You wake up outside the EPA building. Suddenly, you realize you’re outside...without your respirator...You look around. There are towering, healthy trees, and vibrant green grass. Did your advice really work? You check the date on your machine, you aren’t in the past, you have made it back to the same day that you left. Right away you feel the change, you take a deep breath of clean, fresh air and you know for certain that this is the future you and the rest of humanity needs to truly live. What will you change in your own life to save the environment and preserve a healthy future?"
   }
- else{
+  else{
     alert("That is incorrect, please try again");
   }
 }
