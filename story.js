@@ -1,3 +1,5 @@
+document.body.style.backgroundImage = "url('land1.JPG')"
+
 function submit(){ 
   document.body.style.backgroundImage = "url('land1.JPG')"
   document.getElementById("btnSubmit").style.visibility = "hidden";
