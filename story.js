@@ -1,7 +1,7 @@
-document.body.style.backgroundImage = "url('land1.JPG') no-repeat left top"
+document.body.style.backgroundImage = "url('land1.JPG')"
 
 function submit(){ 
-  document.body.style.backgroundImage = "url('land1.JPG') no-repeat left top"
+  document.body.style.backgroundImage = "url('land1.JPG') no-repeat"
   document.getElementById("btnSubmit").style.visibility = "hidden";
   document.getElementById("btnNext").style.visibility="visible";
   document.getElementById("Name").style.visibility = "hidden";
