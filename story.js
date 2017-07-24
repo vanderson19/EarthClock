@@ -1,4 +1,5 @@
 function submit(){ 
+  document.body.style.backgroundImage = "url('land1.jpg')"
   document.getElementById("btnSubmit").style.visibility = "hidden";
   document.getElementById("btnNext").style.visibility="visible";
   document.getElementById("Name").style.visibility = "hidden";
@@ -7,12 +8,14 @@ function submit(){
 }
 
 function next(){
+  document.body.style.backgroundImage = "url('land2.jpg')"
   document.getElementById("btnNext").style.visibility = "hidden";
   document.getElementById("btnNext2").style.visibility="visible";
   document.getElementById("story").innerHTML="You begin your day using your own recycled water to take a 5 minute shower, then you get dressed in all-plastic clothing, since natural fibers are a rarity now. You turn on the news and hear the daily warnings about storms and floods, hoping that you won’t be hit this time. You eat your synthetic breakfast, sadly, natural fruits, vegetables and meat are only for the rich who can pay the inflated prices."
 }
 
 function next2(){
+  document.body.style.backgroundImage = "url('land3.jpg')"
   document.getElementById("btnNext2").style.visibility = "hidden";
   document.getElementById("btnpress").style.visibility="visible";
   document.getElementById("btnnopress").style.visibility="visible";
@@ -20,6 +23,7 @@ function next2(){
 }  
 
 function press(){
+  document.body.style.backgroundImage = "url('land4.jpg')"
   document.getElementById("btnpress").style.visibility = "hidden";
   document.getElementById("btnnopress").style.visibility="hidden";
   document.getElementById("btntalk").style.visibility="visible";
@@ -27,6 +31,7 @@ function press(){
   document.getElementById("story").innerHTML="The machine whirs and you black out for a while. You wake up in a park; immediately you take note of the healthy trees and green grass. The trees provide cool shade over you and no one is wearing a respirator. You pick up the machine laying next to you in the grass. It must have sent you back in time. The label on the machine informs you it requires a cooldown time of 12 hours. You see a woman walking by, do you talk to her?"
 }  
  function nopress(){
+   document.body.style.backgroundImage = "url('land4.jpg')"
    document.getElementById("btnnopress").style.visibility = "hidden";
    document.getElementById("btnpress").style.visibility="hidden";
    document.getElementById("btntalk").style.visibility="visible";
@@ -35,6 +40,7 @@ function press(){
 } 
 
  function talk(){
+   document.body.style.backgroundImage = "url('land5.jpg')"
      document.getElementById("btntalk").style.visibility = "hidden";
      document.getElementById("btnnotalk").style.visibility = "hidden";
      document.getElementById("checklist").style.visibility="visible";
@@ -42,6 +48,7 @@ function press(){
  }
    
  function notalk(){
+   document.body.style.backgroundImage = "url('land5.jpg')"
      document.getElementById("btntalk").style.visibility = "hidden";
      document.getElementById("btnnotalk").style.visibility = "hidden";
      document.getElementById("checklist").style.visibility= "visible";
@@ -50,6 +57,7 @@ function press(){
 
 function enter(){
   if (document.getElementById("RnC").checked == true && document.getElementById("Reuse").checked == true && document.getElementById("CO2").checked == true && document.getElementById("Organic").checked == true && document.getElementById("Showers").checked == false && document.getElementById("Lights").checked == false && document.getElementById("Thermostat").checked == false && document.getElementById("Print").checked == true && document.getElementById("Recharge").checked == true){
+      document.body.style.backgroundImage = "url('land6.jpg')"
       document.getElementById("checklist").style.visibility="hidden";
       document.getElementById("btnNext3").style.visibility="visible";
       document.getElementById("story").innerHTML="You pull out the time machine from your pocket, hoping you’ve done enough. The machine whirs as it powers up and  you black out. You wake up outside the EPA building. Suddenly, you realize you’re outside...without your respirator...You look around. There are towering, healthy trees, and vibrant green grass. Did your advice really work? You check the date on your machine, you aren’t in the past, you have made it back to the same day that you left. Right away you feel the change, you take a deep breath of clean, fresh air and you know for certain that this is the future you and the rest of humanity needs to truly live."
@@ -60,6 +68,7 @@ function enter(){
 }
 
 function next3(){
+  document.body.style.backgroundImage = "url('land7.jpg')"
   document.getElementById("btnNext3").style.visibility="hidden";
   document.getElementById("comment").style.visibility="visible";
   document.getElementById("story").innerHTML=" What will you change in your own life to save the environment and preserve a healthy future?";
