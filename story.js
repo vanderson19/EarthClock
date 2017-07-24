@@ -1,4 +1,4 @@
-document.body.style.backgroundImage = "url('land1.JPG')"
+// document.body.style.backgroundImage = "url('land1.JPG')"
 
 function submit(){ 
   document.body.style.backgroundImage = "url('land1.JPG')"
@@ -10,14 +10,14 @@ function submit(){
 }
 
 function next(){
-  document.body.style.backgroundImage = "url('land2.JPG') no-repeat left top "
+  document.body.style.backgroundImage = "url('land2.JPG')"
   document.getElementById("btnNext").style.visibility = "hidden";
   document.getElementById("btnNext2").style.visibility="visible";
   document.getElementById("story").innerHTML="You begin your day using your own recycled water to take a 5 minute shower, then you get dressed in all-plastic clothing, since natural fibers are a rarity now. You turn on the news and hear the daily warnings about storms and floods, hoping that you won’t be hit this time. You eat your synthetic breakfast, sadly, natural fruits, vegetables and meat are only for the rich who can pay the inflated prices."
 }
 
 function next2(){
-  document.body.style.backgroundImage = "url('land3.JPG') no-repeat left top "
+  document.body.style.backgroundImage = "url('land3.JPG')"
   document.getElementById("btnNext2").style.visibility = "hidden";
   document.getElementById("btnpress").style.visibility="visible";
   document.getElementById("btnnopress").style.visibility="visible";
