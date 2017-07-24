@@ -57,4 +57,5 @@ function enter(){
   }
  else{
     alert("That is incorrect, please try again");
- }
+  }
+}
