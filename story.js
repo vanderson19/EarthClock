@@ -48,3 +48,13 @@ function press(){
      document.getElementById("checklist").removeAttr="checked";
      document.getElementById("story").innerHTML="You get up and walk out of the park. People stare at your plastic clothes. You pass a newspaper stand and realize that today is (feature creep).The headline on the newspaper says: “LAST CHANCE TO SAVE OUR PLANET FROM CLIMATE CHANGE!As you continue your stroll, you realize that this is an opportunity to make a difference and reverse the damage of the future. You begin your course towards the Environmental Protection Agency, determined to show government officials the drastic transformation, which will occur in the near future if people don’t change their ways.You arrive at the agency and show them pictures from the future and at the sight of such horrific conditions they wonder what they can do so you can grow up in a healthy world. “Well, what do you think we can do to save the planet?” Here is a checklist, choose all options that can help the environment!"
 }  
+
+function enter(){
+  if (document.getElementById("RnC").checked == true && document.getElementById("Reuse").checked == true && document.getElementById("CO2").checked == true && document.getElementById("Organic").checked == true && document.getElementById("Showers").checked == false && document.getElementById("Lights").checked == false && document.getElementById("Thermostat").checked == false && document.getElementById("Print").checked == true && document.getElementById("Recharge").checked == true){
+      document.getElementById("checklist").style.visibility="hidden";
+      document.getElementById("comment").style.visibility="visible";
+      document.getElementById("story").innerHTML="You pull out the time machine from your pocket, hoping you’ve done enough. The machine whirs as it powers up and  you black out. You wake up outside the EPA building. Suddenly, you realize you’re outside...without your respirator...You look around. There are towering, healthy trees, and vibrant green grass. Did your advice really work? You check the date on your machine, you aren’t in the past, you have made it back to the same day that you left. Right away you feel the change, you take a deep breath of clean, fresh air and you know for certain that this is the future you and the rest of humanity needs to truly live. What will you change in your own life to save the environment and preserve a healthy future?"
+  }
+ else{
+    alert("That is incorrect, please try again");
+ }
