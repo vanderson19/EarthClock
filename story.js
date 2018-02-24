@@ -72,5 +72,5 @@ function next3(){
   document.getElementById("bg").style.backgroundImage = "url('land7.JPG')"
   document.getElementById("btnNext3").style.visibility="hidden";
   document.getElementById("comment").style.visibility="visible";
-  document.getElementById("story").innerHTML=" What will you change in your own life to save the environment and preserve a healthy future?";
+  document.getElementById("story").innerHTML=" Thank you for playing! What will you change in your own life to save the environment and preserve a healthy future?";
 }
